@@ -1,0 +1,25 @@
+/* Подключение шрифтов */
+@import "fonts.css";
+/* Подключение основных стилей */
+@import "base.css";
+/* Подключение универсальных стилей */
+@import "typography.css";
+
+/* Подключение анимаций */
+@import "animation.css";
+
+/* Подключение стилей относящихся к header */
+@import "header.css";
+
+@import "courses.css";
+/* Подключение стилей логотип */
+@import "contact.css";
+@import "about.css";
+@import "teachers.css";
+@import "popular.css";
+@import "why.css";
+/* Подключение стилей относящихся к footer */
+@import "footer.css";
+
+/* Подключение стилей отвечающих за адаптив */
+@import "adaptability.css";

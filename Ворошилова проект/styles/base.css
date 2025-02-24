@@ -1,0 +1,32 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'CuteDino', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4a525a;
+
+    background-color: #fefefb;
+
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+    
+    --background-color:
+    #F0F8FF; /* Цвет фона - светло-голубой */
+    --text-color: #333333; /*
+    Цвет текста - темно-серый */
+    --link-color: #1E90FF; /*
+    Цвет ссылок - синий */
+    --hover-color: #FF6347; /*
+    Цвет при наведении - томатный */
+    --border-color: #DCDCDC; /*
+    Цвет границ - светло-серый */
+}
