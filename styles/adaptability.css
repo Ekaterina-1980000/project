@@ -1,0 +1,70 @@
+@media (max-width: 1024px) {
+
+    /* Base */
+    html,
+    body {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    /* Typography */
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .button {
+        min-height: 50px;
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* Section */
+    .section__title {
+        font-size: 30px;
+        line-height: 44px;
+    }
+
+    .section__description {
+        max-width: 100%;
+
+        line-height: 26px;
+    }
+
+    /* Header */
+    .header {
+        padding: 20px 40px;
+    }
+
+    .header__item-link {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /* Footer */
+    .footer {
+        margin-top: 70px;
+        padding-top: 24px;
+        padding-bottom: 30px;
+    }
+
+    .footer__logo {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .footer__copy {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    /* Popup */
+    .popup {
+        padding: 40px;
+    }
+
+    .popup__close {
+        padding: 16px;
+    }
+}

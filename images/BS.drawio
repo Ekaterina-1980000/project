@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram name="Страница — 1" id="J5csYhee9oL-4B0zf4vv">
+    <mxGraphModel dx="1226" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wI3AnqsPnJ_3AisA4k-N-1" target="wI3AnqsPnJ_3AisA4k-N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wI3AnqsPnJ_3AisA4k-N-2" target="wI3AnqsPnJ_3AisA4k-N-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-2" value="Ожидаем событие &lt;code data-end=&quot;190&quot; data-start=&quot;172&quot;&gt;DOMContentLoaded&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wI3AnqsPnJ_3AisA4k-N-3" target="wI3AnqsPnJ_3AisA4k-N-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-3" value="Назначить обработчик события &lt;code data-end=&quot;243&quot; data-start=&quot;236&quot;&gt;click&lt;/code&gt; на кнопку &lt;code data-end=&quot;264&quot; data-start=&quot;254&quot;&gt;loginBtn&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wI3AnqsPnJ_3AisA4k-N-6" target="wI3AnqsPnJ_3AisA4k-N-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-6" value="Пользователь нажимает на &lt;code data-end=&quot;303&quot; data-start=&quot;293&quot;&gt;loginBtn&lt;/code&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wI3AnqsPnJ_3AisA4k-N-7" target="wI3AnqsPnJ_3AisA4k-N-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-7" value="&lt;strong data-end=&quot;367&quot; data-start=&quot;361&quot;&gt;Да&lt;/strong&gt; → Перейти к следующему шагу" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wI3AnqsPnJ_3AisA4k-N-8" target="wI3AnqsPnJ_3AisA4k-N-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-8" value="&lt;strong data-end=&quot;317&quot; data-start=&quot;310&quot;&gt;Нет&lt;/strong&gt; → Ожидание события (возврат к шагу 4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wI3AnqsPnJ_3AisA4k-N-9" target="wI3AnqsPnJ_3AisA4k-N-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-9" value="Отменить стандартное поведение ссылки (через &lt;code data-end=&quot;464&quot; data-start=&quot;444&quot;&gt;e.preventDefault()&lt;/code&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wI3AnqsPnJ_3AisA4k-N-10" target="wI3AnqsPnJ_3AisA4k-N-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-10" value="Добавить класс &lt;code data-end=&quot;500&quot; data-start=&quot;484&quot;&gt;.modal--active&lt;/code&gt; к модальному окну &lt;code data-end=&quot;531&quot; data-start=&quot;519&quot;&gt;loginModal&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wI3AnqsPnJ_3AisA4k-N-11" target="wI3AnqsPnJ_3AisA4k-N-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-11" value="Вывести в консоль: &lt;code data-end=&quot;568&quot; data-start=&quot;554&quot;&gt;Modal opened&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wI3AnqsPnJ_3AisA4k-N-13" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

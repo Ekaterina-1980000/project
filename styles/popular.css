@@ -1,0 +1,55 @@
+.popular-subjects {
+    padding: 50px;
+    background-color: #eef2f3;
+    text-align: center;
+}
+
+.popular-subjects__title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.popular-subjects__description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.popular-subjects__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.subject-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.subject-card:hover {
+    transform: translateY(-5px);
+}
+
+.subject-card__name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subject-card__percent {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 10px 0;
+}
+
+.subject-card__info {
+    font-size: 14px;
+    color: #444;
+}
