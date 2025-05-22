@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const letterInterval = setInterval(() => {
     loaderText.textContent += word[idx++];
-    if (idx >= word.length) {
+    if (idx >= word.length) { 
       clearInterval(letterInterval);
       setTimeout(() => {
         document.body.classList.add('loaded');
